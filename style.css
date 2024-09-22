@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+    background-position: center 0%;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    font-family: "Work Sans", sans-serif
+}
+
+.main {
+    width: 500px;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 16px;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.what {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 16px;
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.para-1 {
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.para-2 {
+    display: none;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.para-1:hover {
+    color: violet;
+    cursor: pointer;
+}
